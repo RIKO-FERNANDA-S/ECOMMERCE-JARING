@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+:root {
+  --primary: rgb(118, 238, 62);
+  --dark: rgb(39, 83, 50);
+  --body: rgb(126, 161, 0);
+  --shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Mochiy Pop P One", sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+  font-weight: 400;
+}
+
+.logo {
+  width: 160px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+display-4 {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.ap {
+  font-size: 2rem;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.hero::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(6, 73, 21, 0.377);
+  z-index: -1;
+}
+
+.pp img {
+  height: 19rem;
+  width: 17rem;
+}
+
+/* section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} */
+
+.gm img {
+  width: 10rem;
+  height: 10rem;
+  transition: 0.5s;
+}
+
+.gm img:hover {
+  transform: translateY(-38px);
+}
+
+.T {
+  bottom: 0;
+  padding: 1em;
+}
+
+.a {
+  margin-top: 2rem;
+}
+
+.b {
+  width: 13rem;
+  height: 8rem;
+}
+
+.c {
+  margin-top: 3rem;
+}
+
+.w {
+  margin-left: 2.5em;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  background-color: blueviolet;
+  border-radius: 7px;
+  font-size: small;
+  width: auto;
+}
+
+.i {
+  width: 100%;
+  height: 100%;
+}
+
+.y {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#menu {
+  background-image: url(img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about {
+  background-color: bisque;
+}
